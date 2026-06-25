@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "A Resting-state EEG Dataset for Sleep Deprivation",
+  "description": "A resting-state EEG dataset comprising 71 participants recorded during normal sleep and sleep deprivation conditions. The dataset includes eyes-open and partially eyes-closed EEG recordings along with subjective measures of sleepiness and mood states, collected between March 2019 and December 2020. This resource enables investigation of the neurophysiological effects of sleep deprivation on brain activity and associated behavioral outcomes.",
+  "methods_description": "Resting-state EEG was acquired using a 61-electrode Brain Products system at 500 Hz sampling frequency with impedances maintained below 5 kΩ. Participants completed two sessions: normal sleep (NS, Session 1) and sleep deprivation (SD, Session 2), with counterbalanced session order across participants. EEG recordings were obtained during eyes-open and partially eyes-closed conditions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,47 +15,6 @@
       "orcid": "0000-0003-2271-1287"
     }
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds004902.v1.0.8",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on004902",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004902",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.1038/s41597-024-03268-2",
-      "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "eeg",
-    "beh"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".fdt",
-    ".json",
-    ".m",
-    ".md",
-    ".set",
-    ".tsv"
-  ],
-  "description": "A resting-state EEG dataset comprising 71 participants recorded during normal sleep and sleep deprivation conditions. The dataset includes eyes-open and partially eyes-closed EEG recordings along with subjective measures of sleepiness and mood states, collected between March 2019 and December 2020. This resource enables investigation of the neurophysiological effects of sleep deprivation on brain activity and associated behavioral outcomes.",
-  "methods_description": "EEG data were acquired using a 61-electrode Brain Products system at 500 Hz sampling frequency with impedances maintained below 5 kΩ. Participants completed two sessions: normal sleep (NS, Session 1) and sleep deprivation (SD, Session 2), with counterbalanced session order across participants. Resting-state recordings were obtained in eyes-open and partially eyes-closed conditions.",
   "keywords": [
     {
       "term": "EEG"
@@ -73,7 +34,29 @@
       "term": "sleepiness"
     },
     {
-      "term": "neurophysiology"
+      "term": "electroencephalography"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on004902",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004902",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1038/s41597-024-03268-2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004902.v1.0.8",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -82,5 +65,23 @@
       "award_number": "2021YFC2501500"
     }
   ],
-  "source_hash": "04d0268e6654d7308e1df6a19ec1c84264170d79ec30b00e42ebd90b0dfe35c5"
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg",
+    "beh"
+  ],
+  "sizes": [
+    "8.9 GB (438 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".m",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "c5e49698385dd6e59e32067ea6c208b069eb114837489328a53676190293feb7"
 }
