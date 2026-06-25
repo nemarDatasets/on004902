@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "A Resting-state EEG Dataset for Sleep Deprivation",
-  "description": "A resting-state EEG dataset comprising 71 participants recorded during normal sleep and sleep deprivation conditions. The dataset includes eyes-open and partially eyes-closed EEG recordings along with subjective measures of sleepiness and mood states, collected between March 2019 and December 2020. This resource enables investigation of the neurophysiological effects of sleep deprivation on brain activity and associated behavioral outcomes.",
-  "methods_description": "Resting-state EEG was acquired using a 61-electrode Brain Products system at 500 Hz sampling frequency with impedances maintained below 5 kΩ. Participants completed two sessions: normal sleep (NS, Session 1) and sleep deprivation (SD, Session 2), with counterbalanced session order across participants. EEG recordings were obtained during eyes-open and partially eyes-closed conditions.",
+  "description": "A resting-state EEG dataset comprising 71 participants recorded during normal sleep and sleep deprivation conditions. The dataset includes eyes-open and partially eyes-closed EEG recordings collected between March 2019 and December 2020, along with concurrent measurements of sleepiness and mood states. This resource enables investigation of neurophysiological changes associated with sleep deprivation and their relationship to subjective alertness and affective states.",
+  "methods_description": "Resting-state EEG was acquired using a 61-electrode Brain Products system at 500 Hz sampling frequency with impedances maintained below 5 kΩ. Participants completed two sessions: normal sleep (NS, Session 1) and sleep deprivation (SD, Session 2), with counterbalanced session order across participants. Recordings included both eyes-open and partially eyes-closed conditions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
