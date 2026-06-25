@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004902-blue)](https://doi.org/10.82901/nemar.on004902)
+
 # General information
                                                                                                                                                                                                                                                       
 The dataset provides resting-state EEG data (eyes open,partially eyes closed) from 71 participants who underwent two experiments involving normal sleep (NS---session1) and  sleep deprivation(SD---session2) .The dataset also provides information on participants' sleepiness and mood states.
