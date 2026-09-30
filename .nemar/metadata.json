@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "A Resting-state EEG Dataset for Sleep Deprivation",
-  "description": "This dataset comprises resting-state EEG recordings from 71 participants who underwent two sessions of normal sleep and sleep deprivation, with the session order counterbalanced across participants. In addition to EEG data (eyes open and partially eyes closed), the dataset includes measures of participants' sleepiness and mood states, enabling investigation of sleep deprivation effects on brain activity and psychological state.",
-  "methods_description": "EEG was recorded using a Brain Products system with 61 electrodes at a sampling frequency of 500Hz, with impedances kept below 5k.",
+  "description": "This dataset contains resting-state EEG recordings from 71 participants collected under two conditions: normal sleep and sleep deprivation. Session order was counterbalanced across participants. Recordings cover eyes-open and partially eyes-closed rest, and the dataset also includes measures of participants' sleepiness and mood states.",
+  "methods_description": "Data were collected between March 2019 and December 2020 using a Brain Products EEG system with 61 electrodes, sampled at 500 Hz, with impedances kept below 5 kΩ. Each participant completed a normal sleep session and a sleep deprivation session, with session order counterbalanced.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,12 +20,12 @@
       "term": "EEG"
     },
     {
+      "term": "resting-state EEG"
+    },
+    {
       "term": "Sleep Deprivation",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D012892"
-    },
-    {
-      "term": "resting-state EEG"
     },
     {
       "term": "mood"
@@ -69,7 +69,7 @@
     "beh"
   ],
   "sizes": [
-    "8.9 GB (438 files)"
+    "8.29 GB (438 files)"
   ],
   "formats": [
     ".fdt",
